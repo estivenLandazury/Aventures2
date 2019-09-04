@@ -1722,6 +1722,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .header-menu-text {
         display: none;
     }
+    img.iconporta {
+        width: 43%;
+    }
 }
 
 /* ===================================================================
