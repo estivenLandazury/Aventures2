@@ -2434,7 +2434,6 @@ html.no-csstransitions .home-content__main {
         margin-top: 4.2rem;
         max-width: 500px;
         text-align: center;
-        width: 27%;
     }
     .services-list .service-item:nth-child(n) {
         padding-right: 15px;
