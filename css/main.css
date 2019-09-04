@@ -1726,7 +1726,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         display: none;
     }
     img.iconporta {
-        width: 43%;
+        width: 43% !important;
     }
 }
 
@@ -2449,6 +2449,9 @@ html.no-csstransitions .home-content__main {
         font-size: 4.5rem;
         float: none;
         margin-top: 0;
+    }
+    img.iconporta {
+        width: 40%;
     }
 }
 
