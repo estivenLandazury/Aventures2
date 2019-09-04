@@ -12,12 +12,12 @@
  *
  * =================================================================== */
 
-
 /* ===================================================================
  * # animate on scroll 
  * https://michalsnik.github.io/aos/
  *
  * ------------------------------------------------------------------- */
+
 [data-aos][data-aos][data-aos-duration='50'], body[data-aos-duration='50'] [data-aos] {
     transition-duration: 50ms;
 }
@@ -971,15 +971,13 @@
     transform: perspective(2500px) rotateX(0);
 }
 
-
 /*# sourceMappingURL=aos.css.map*/
-
-
 
 /* ===================================================================
  * # slick slider
  *
  * ------------------------------------------------------------------- */
+
 .slick-slider {
     position: relative;
     display: block;
@@ -1081,14 +1079,13 @@
     display: none;
 }
 
-
-
 /* ===================================================================
  * # photoswipe
  *   PhotoSwipe main CSS by Dmitry Semenov 
  *   photoswipe.com | MIT license
  *
  * ------------------------------------------------------------------- */
+
 /*! 
   # photoswipe
   PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
@@ -1125,7 +1122,6 @@
     max-width: none;
 }
 
-
 /* style is added when JS option showHideOpacity is set to true */
 
 .pswp--animate_opacity {
@@ -1161,7 +1157,6 @@
     cursor: -moz-grabbing;
     cursor: grabbing;
 }
-
 
 /*
 	Background is added as a separate element.
@@ -1200,7 +1195,6 @@
     top: 0;
     bottom: 0;
 }
-
 
 /* Prevent selection and tap highlights */
 
@@ -1257,7 +1251,6 @@
     left: 0;
 }
 
-
 /*
 	stretched thumbnail or div placeholder element (see below)
 	style is added to avoid flickering in webkit/blink when layers overlap
@@ -1266,7 +1259,6 @@
 .pswp__img--placeholder {
     -webkit-backface-visibility: hidden;
 }
-
 
 /*
 	div element that matches size of large image
@@ -1283,7 +1275,6 @@
     left: 0;
     top: 0;
 }
-
 
 /*
 	Error message appears when image is not loaded
@@ -1307,7 +1298,6 @@
     text-decoration: underline;
 }
 
-
 /* ===================================================================
  * # photoSwipe skin
  *
@@ -1324,11 +1314,9 @@
     6. Additional styles (root element, top bar, idle state, hidden state, etc.)
 */
 
-
 /* -------------------------------------------------------------------
  * ## 1. buttons
  * ------------------------------------------------------------------- */
-
 
 /* <button> css reset */
 
@@ -1367,7 +1355,6 @@
     padding: 0;
     border: 0;
 }
-
 
 /* 
 pswp__ui--over-close class it added when mouse is 
@@ -1428,13 +1415,11 @@ over element that should close gallery
     background-position: -132px 0;
 }
 
-
 /* no arrows on touch screens */
 
 .pswp--touch .pswp__button--arrow--left, .pswp--touch .pswp__button--arrow--right {
     visibility: hidden;
 }
-
 
 /*
 Arrow buttons hit area
@@ -1477,7 +1462,6 @@ Arrow buttons hit area
     right: 6px;
     background-position: -94px -44px;
 }
-
 
 /* -------------------------------------------------------------------
  * ## 2. Share modal/popup and links
@@ -1564,7 +1548,6 @@ Arrow buttons hit area
     transform: translateY(0);
 }
 
-
 /* increase size of share links on touch devices */
 
 .pswp--touch .pswp__share-tooltip a {
@@ -1609,7 +1592,6 @@ a.pswp__share--download:hover {
     background: #DDD;
 }
 
-
 /* -------------------------------------------------------------------
  * ## 3. Index indicator ("1 of X" counter)
  * ------------------------------------------------------------------- */
@@ -1625,7 +1607,6 @@ a.pswp__share--download:hover {
     opacity: 0.75;
     padding: 0 10px;
 }
-
 
 /* -------------------------------------------------------------------
  * ## 4. Caption
@@ -1665,13 +1646,11 @@ a.pswp__share--download:hover {
     display: none;
 }
 
-
 /* Fake caption element, used to calculate height of next/prev image */
 
 .pswp__caption--fake {
     visibility: hidden;
 }
-
 
 /* -------------------------------------------------------------------
  * ## 5. Loading indicator (preloader)
@@ -1821,11 +1800,9 @@ a.pswp__share--download:hover {
     }
 }
 
-
 /* -------------------------------------------------------------------
  * ## 6. additional styles
  * ------------------------------------------------------------------- */
-
 
 /* root element of UI */
 
@@ -1839,7 +1816,6 @@ a.pswp__share--download:hover {
     opacity: 1;
     z-index: 1550;
 }
-
 
 /* top black bar with buttons and "1 of X" indicator */
 
@@ -1859,7 +1835,6 @@ a.pswp__share--download:hover {
     transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
 }
 
-
 /* pswp--has_mouse class is added only when two subsequent mousemove events occur */
 
 .pswp--has_mouse .pswp__button--arrow--left, .pswp--has_mouse .pswp__button--arrow--right {
@@ -1870,13 +1845,11 @@ a.pswp__share--download:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
 /* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
 
 .pswp__ui--fit .pswp__top-bar, .pswp__ui--fit .pswp__caption {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 
 /* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
 
@@ -1888,7 +1861,6 @@ a.pswp__share--download:hover {
     opacity: 0;
 }
 
-
 /*
 	pswp__ui--hidden class is added when controls are hidden
 	e.g. when user taps to toggle visibility of controls
@@ -1898,7 +1870,6 @@ a.pswp__share--download:hover {
     /* Force paint & create composition layer for controls. */
     opacity: 0.001;
 }
-
 
 /* pswp__ui--one-slide class is added when there is just one item in gallery */
 
@@ -1914,5 +1885,8 @@ a.pswp__share--download:hover {
     background: none;
 }
 
+.slick-slide img {
+    display: initial;
+}
 
 /*# sourceMappingURL=vendor.css.map */

@@ -408,6 +408,10 @@ dd {
     height: 100%;
 }
 
+img.iconporta {
+    width: 83%;
+}
+
 /* ------------------------------------------------------------------- 
  * ## floated image
  * ------------------------------------------------------------------- */
@@ -1766,7 +1770,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     vertical-align: middle;
-    padding-bottom: 15.6rem;
+    padding-bottom: -0.4rem;
     position: relative;
     overflow: hidden;
 }
@@ -2357,6 +2361,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list {
     margin-top: 6rem;
+    margin-left: 12%;
 }
 
 .services-list .service-item {
@@ -2474,7 +2479,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-works .intro-wrap {
-    padding: 15rem 0 25.2rem;
+    /* padding: 15rem 0 25.2rem; */
     background: #cc0c4f;
 }
 
@@ -2678,7 +2683,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
     .s-works {
-        padding-bottom: 12rem;
+        padding-bottom: 0%;
     }
     .s-works .intro-wrap {
         padding: 12rem 0 25.2rem;
@@ -2765,7 +2770,7 @@ html.no-csstransitions .home-content__main {
     font-family: "lora-regular", serif;
     font-size: 3rem;
     line-height: 1.8;
-    color: #555555;
+    color: #656161;
     margin-bottom: 6rem;
 }
 
@@ -3467,7 +3472,7 @@ footer .row {
 }
 
 .row.about-stats.stats.block-1-4.block-m-1-2.block-mob-full.aos-init.aos-animate {
-    margin-left: 15%;
+    margin-left: 21%;
 }
 
 /* ------------------------------------------------------------------- 
