@@ -1716,6 +1716,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .header-menu-toggle {
         right: 25px;
     }
+    img.iconporta {
+        width: 43%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
