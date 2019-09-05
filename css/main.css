@@ -496,7 +496,7 @@ input, textarea, select, pre, blockquote, figure, table, p, ul, ol, dl, form, .v
 }
 
 .pace .pace-progress {
-    background: #39b54a;
+    background: #cc0c4f;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -542,7 +542,7 @@ input, textarea, select, pre, blockquote, figure, table, p, ul, ol, dl, form, .v
 }
 
 .line-scale-pulse-out>div {
-    background-color: #39b54a;
+    background-color: #cc0c4f;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -2697,9 +2697,12 @@ html.no-csstransitions .home-content__main {
     .s-works {
         padding-bottom: 0%;
     }
+    /*
     .s-works .intro-wrap {
         padding: 12rem 0 25.2rem;
     }
+
+    */
     .works-content {
         margin-top: -25.2rem;
     }
@@ -2740,6 +2743,13 @@ html.no-csstransitions .home-content__main {
     display: block;
     opacity: .55;
     padding: 1.5rem 2.8rem;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.clients__slider {
+    display: block;
+    padding: 1.5rem 0.8rem;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 }
