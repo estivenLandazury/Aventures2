@@ -2254,6 +2254,11 @@ html.no-csstransitions .home-content__main {
     .title_text {
         margin-left: 0%;
         width: 95%;
+        text-align: left;
+        /* margin-top: 9%; */
+    }
+    .video-l {
+        margin-top: -4% !important;
     }
 }
 
