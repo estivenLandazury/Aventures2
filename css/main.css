@@ -2241,8 +2241,8 @@ html.no-csstransitions .home-content__main {
         min-height: 630px;
     }
     .home-content h1 {
-        font-size: 121% !important;
-        text-align: justify !important;
+        font-size: 121%;
+        text-align: justify;
     }
     .home-content__main {
         padding-top: 16.2rem;
@@ -3638,8 +3638,8 @@ footer .row {
         text-align: center;
     }
     .home-content h1 {
-        font-size: 129% !important;
-        text-align: left !important;
+        font-size: 129%;
+        text-align: left;
         width: 141%;
     }
     .clients-testimonials .testimonials p {
@@ -3676,7 +3676,7 @@ footer .row {
         padding-left: 0;
     }
     .home-content h1 {
-        font-size: 121% !important;
+        font-size: 121%;
         text-align: left;
         width: 114%;
     }
@@ -3703,16 +3703,6 @@ footer .row {
     .about-desc {
         font-size: 1.8rem;
         text-align: justify;
-    }
-}
-
-@media only screen and (max-width: 1880px) {
-    .home-content h1 {
-        font-family: "montserrat-medium", sans-serif;
-        font-size: 4.3rem;
-        line-height: 1.333;
-        margin-top: 0;
-        color: #FFFFFF;
     }
 }
 
