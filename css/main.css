@@ -2233,6 +2233,10 @@ html.no-csstransitions .home-content__main {
     }
     .title_text {
         margin-left: 0%;
+        text-align: left;
+    }
+    .video-l {
+        margin-top: -6% !important;
     }
 }
 
