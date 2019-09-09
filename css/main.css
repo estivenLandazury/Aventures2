@@ -2070,24 +2070,25 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1335px) {
     .home-content h1 {
-        font-size: 5.5rem;
+        font-size: 131%;
     }
     .home-content__main {
         max-width: 800px;
     }
-    img.ImahgenFondo {
-        display: none
-    }
     .title_text {
-        margin-left: 0%;
+        margin-left: 40%;
+        width: 51%;
+    }
+    .video-l {
+        margin-top: -8%;
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1053px) {
     .home-content h1 {
-        font-size: 4.6rem;
+        font-size: 131%;
     }
     .home-content br {
         display: none;
@@ -2097,11 +2098,13 @@ html.no-csstransitions .home-content__main {
         padding-right: 80px;
         max-width: 680px;
     }
-    img.ImahgenFondo {
-        display: none
+    .video-l {
+        margin-top: -11%;
     }
     .title_text {
-        margin-left: 0%;
+        margin-left: 40%;
+        width: 51%;
+        margin-top: -6%;
     }
 }
 
@@ -2110,17 +2113,20 @@ html.no-csstransitions .home-content__main {
         font-size: 1.5rem;
     }
     .home-content h1 {
-        font-size: 4rem;
+        font-size: 121%;
+        text-align: justify;
     }
     .home-content__main {
         padding-right: 70px;
         max-width: 550px;
     }
-    img.ImahgenFondo {
-        display: none
-    }
     .title_text {
-        margin-left: 0%;
+        margin-left: 42%;
+        width: 70%;
+        /* margin-top: 2%; */
+    }
+    .video-l {
+        margin-top: -14% !important;
     }
 }
 
@@ -2155,9 +2161,10 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
+    /** 
     .home-content h1 {
         font-size: 3.8rem;
-    }
+    }  */
     .home-social {
         right: 2rem;
     }
@@ -2234,7 +2241,8 @@ html.no-csstransitions .home-content__main {
         min-height: 630px;
     }
     .home-content h1 {
-        font-size: 3.2rem;
+        font-size: 121%;
+        text-align: justify;
     }
     .home-content__main {
         padding-top: 16.2rem;
@@ -2245,6 +2253,7 @@ html.no-csstransitions .home-content__main {
     }
     .title_text {
         margin-left: 0%;
+        width: 95%;
     }
 }
 
@@ -2516,7 +2525,7 @@ html.no-csstransitions .home-content__main {
         margin-top: 0;
     }
     img.iconporta {
-        width: 40%;
+        width: 26%;
     }
 }
 
@@ -3631,6 +3640,7 @@ footer .row {
     .home-content h1 {
         font-size: 129%;
         text-align: left;
+        width: 141%;
     }
     .clients-testimonials .testimonials p {
         font-size: 107%;
@@ -3666,8 +3676,9 @@ footer .row {
         padding-left: 0;
     }
     .home-content h1 {
-        font-size: 129%;
+        font-size: 121%;
         text-align: left;
+        width: 114%;
     }
     .clients-testimonials .testimonials p {
         font-size: 107%;
