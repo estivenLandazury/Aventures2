@@ -2241,8 +2241,8 @@ html.no-csstransitions .home-content__main {
         min-height: 630px;
     }
     .home-content h1 {
-        font-size: 121%;
-        text-align: justify;
+        font-size: 121% !important;
+        text-align: justify !important;
     }
     .home-content__main {
         padding-top: 16.2rem;
@@ -3638,8 +3638,8 @@ footer .row {
         text-align: center;
     }
     .home-content h1 {
-        font-size: 129%;
-        text-align: left;
+        font-size: 129% !important;
+        text-align: left !important;
         width: 141%;
     }
     .clients-testimonials .testimonials p {
@@ -3676,7 +3676,7 @@ footer .row {
         padding-left: 0;
     }
     .home-content h1 {
-        font-size: 121%;
+        font-size: 121% !important;
         text-align: left;
         width: 114%;
     }
