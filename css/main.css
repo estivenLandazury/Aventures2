@@ -396,9 +396,25 @@ dd {
     overflow: hidden;
 }
 
+/** Video detras letra **/
+
+img.ImahgenFondo {
+    position: absolute;
+}
+
 .image-alternative {
     display: none;
 }
+
+.video-l {
+    margin-top: -7%;
+}
+
+.title_text {
+    margin-left: 36%;
+}
+
+/** Video detras letra **/
 
 .video-container iframe, .video-container object, .video-container embed, .video-container video {
     position: absolute;
@@ -2046,7 +2062,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
-        font-size: 6rem;
+        font-size: 235%;
+        text-align: left;
     }
     .home-content__main {
         max-width: 1000px;
@@ -2087,6 +2104,12 @@ html.no-csstransitions .home-content__main {
         padding-right: 70px;
         max-width: 550px;
     }
+    img.ImahgenFondo {
+        display: none
+    }
+    .title_text {
+        margin-left: 0%;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -2110,6 +2133,12 @@ html.no-csstransitions .home-content__main {
     }
     .home-content__line {
         right: 5.5rem;
+    }
+    img.ImahgenFondo {
+        display: none
+    }
+    .title_text {
+        margin-left: 0%;
     }
 }
 
@@ -2135,6 +2164,12 @@ html.no-csstransitions .home-content__main {
     }
     .home-content__line {
         height: 7.2rem;
+    }
+    img.ImahgenFondo {
+        display: none
+    }
+    .title_text {
+        margin-left: 0%;
     }
 }
 
@@ -2162,11 +2197,23 @@ html.no-csstransitions .home-content__main {
     .home-social {
         display: none;
     }
+    img.ImahgenFondo {
+        display: none
+    }
+    .title_text {
+        margin-left: 0%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .home-content h1 {
         font-size: 3.3rem;
+    }
+    img.ImahgenFondo {
+        display: none
+    }
+    .title_text {
+        margin-left: 0%;
     }
 }
 
@@ -2180,6 +2227,12 @@ html.no-csstransitions .home-content__main {
     .home-content__main {
         padding-top: 16.2rem;
         width: auto;
+    }
+    img.ImahgenFondo {
+        display: none
+    }
+    .title_text {
+        margin-left: 0%;
     }
 }
 
