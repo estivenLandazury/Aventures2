@@ -2077,6 +2077,12 @@ html.no-csstransitions .home-content__main {
     .home-content__main {
         max-width: 800px;
     }
+    img.ImahgenFondo {
+        display: none
+    }
+    .title_text {
+        margin-left: 0%;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -2090,6 +2096,12 @@ html.no-csstransitions .home-content__main {
         padding-top: 21rem;
         padding-right: 80px;
         max-width: 680px;
+    }
+    img.ImahgenFondo {
+        display: none
+    }
+    .title_text {
+        margin-left: 0%;
     }
 }
 
