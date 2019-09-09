@@ -3706,4 +3706,14 @@ footer .row {
     }
 }
 
+@media only screen and (max-width: 1880px) {
+    .home-content h1 {
+        font-family: "montserrat-medium", sans-serif;
+        font-size: 5.3rem;
+        line-height: 1.333;
+        margin-top: 0;
+        color: #FFFFFF;
+    }
+}
+
 /*# sourceMappingURL=main.css.map */
