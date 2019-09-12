@@ -407,7 +407,7 @@ img.ImahgenFondo {
 }
 
 .video-l {
-    margin-top: -7%;
+    margin-top: auto;
 }
 
 .title_text {
@@ -1815,8 +1815,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h1 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 5.3rem;
-    line-height: 1.333;
+    font-size: 4.3rem;
+    /*line-height: 1.333;*/
     margin-top: 0;
     color: #FFFFFF;
 }
@@ -2062,7 +2062,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
-        font-size: 235%;
+        font-size: 3.3rem;
         text-align: left;
     }
     .home-content__main {
@@ -2113,7 +2113,7 @@ html.no-csstransitions .home-content__main {
         font-size: 1.5rem;
     }
     .home-content h1 {
-        font-size: 121%;
+        font-size: 1.9rem;
         text-align: justify;
     }
     .home-content__main {
