@@ -2113,7 +2113,7 @@ html.no-csstransitions .home-content__main {
         font-size: 1.5rem;
     }
     .home-content h1 {
-        font-size: 1.9rem;
+        font-size: 2.3rem !important;
         text-align: justify;
     }
     .home-content__main {
@@ -3712,6 +3712,46 @@ footer .row {
     .about-desc {
         font-size: 1.8rem;
         text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 2562px) {
+    .home-content h1 {
+        font-family: "montserrat-medium", sans-serif;
+        font-size: 6.3rem;
+        /* line-height: 1.333; */
+        margin-top: 0;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 2061px) {
+    .home-content h1 {
+        font-family: "montserrat-medium", sans-serif;
+        font-size: 4.3rem;
+        /* line-height: 1.333; */
+        margin-top: 0;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .home-content h1 {
+        font-family: "montserrat-medium", sans-serif;
+        font-size: 3.3rem;
+        /* line-height: 1.333; */
+        margin-top: 0;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 1322px) {
+    .home-content h1 {
+        font-family: "montserrat-medium", sans-serif;
+        font-size: 2.3rem;
+        /* line-height: 1.333; */
+        margin-top: 0;
+        color: #FFFFFF;
     }
 }
 
