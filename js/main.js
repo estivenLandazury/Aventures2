@@ -155,6 +155,8 @@
 
     /* Stat Counter
      * ------------------------------------------------------ */
+
+    /**  */
     var clStatCount = function () {
 
         var statSection = $(".about-stats"),
