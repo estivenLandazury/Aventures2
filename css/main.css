@@ -103,6 +103,10 @@ a:hover, a:active {
     outline: 0;
 }
 
+h3.t-text {
+    font-size: 91%;
+}
+
 /* ===================================================================
  * # typography & general theme styles
  * 
