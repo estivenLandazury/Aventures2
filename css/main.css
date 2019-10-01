@@ -3805,7 +3805,7 @@ footer .row {
     }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1130px) {
     .item-folio__cat {
         color: rgba(255, 255, 255, 0.5);
         font-family: "montserrat-light", sans-serif;
