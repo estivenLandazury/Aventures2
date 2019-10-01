@@ -73,6 +73,10 @@ section#process {
     }
 }
 
+section.sesion-prueba {
+    display: none;
+}
+
 html, body {
     height: 100%;
 }
@@ -3821,6 +3825,9 @@ footer .row {
         line-height: 1.714;
         text-align: justify;
         margin-bottom: 0;
+    }
+    section.sesion-prueba {
+        display: block;
     }
 }
 
