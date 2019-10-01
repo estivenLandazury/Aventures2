@@ -3805,6 +3805,25 @@ footer .row {
     }
 }
 
+@media only screen and (max-width: 1030px) {
+    .item-folio__cat {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "montserrat-light", sans-serif;
+        font-size: 59%;
+        line-height: 1.714;
+        text-align: justify;
+        margin-bottom: 0;
+    }
+    .item-folio__cat {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "montserrat-light", sans-serif;
+        font-size: 59%;
+        line-height: 1.714;
+        text-align: justify;
+        margin-bottom: 0;
+    }
+}
+
 @media only screen and (max-width: 1186px) {
     .home-content h1 {
         font-family: "montserrat-medium", sans-serif;
