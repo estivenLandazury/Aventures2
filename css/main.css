@@ -3809,7 +3809,7 @@ footer .row {
     .item-folio__cat {
         color: rgba(255, 255, 255, 0.5);
         font-family: "montserrat-light", sans-serif;
-        font-size: 59%;
+        font-size: 59% !important;
         line-height: 1.714;
         text-align: justify;
         margin-bottom: 0;
@@ -3817,7 +3817,7 @@ footer .row {
     .item-folio__cat {
         color: rgba(255, 255, 255, 0.5);
         font-family: "montserrat-light", sans-serif;
-        font-size: 59%;
+        font-size: 59% !important;
         line-height: 1.714;
         text-align: justify;
         margin-bottom: 0;
