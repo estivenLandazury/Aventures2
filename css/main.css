@@ -3872,6 +3872,15 @@ footer .row {
         margin-top: 0;
         color: #FFFFFF;
     }
+    section.sesion-prueba {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    section.sesion-prueba {
+        display: block;
+    }
 }
 
 /*# sourceMappingURL=main.css.map */
