@@ -114,7 +114,7 @@
                 $titleText = '<h4>' + $.trim($title.html()) + '</h4>',
                 $captionText = $.trim($caption.html()),
                 $href = $thumbLink.attr('href'),
-                $size = $thumbLink.data('size').split('x'),
+                $size = $thumbLink.data('size').split(''),
                 $width = $size[0],
                 $height = $size[1];
 

@@ -375,6 +375,10 @@ ul.disc li {
     position: relative;
 }
 
+.footer-logo_p {
+    width: 46%;
+}
+
 ul.disc li::before {
     content: "";
     display: inline-block;
