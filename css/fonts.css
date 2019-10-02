@@ -1,3 +1,12 @@
+/* ===================================================================
+ * fonts.scss
+ *
+ * ------------------------------------------------------------------- */
+
+/*
+ * lora
+================================================================================ */
+
 @font-face {
     font-family: "lora-regular";
     src: url("../fonts/lora/lora-regular-webfont.woff2") format("woff2"), url("../fonts/lora/lora-regular-webfont.woff") format("woff");
@@ -25,6 +34,10 @@
     font-style: normal;
     font-weight: normal;
 }
+
+/*
+ * montserrat
+================================================================================ */
 
 @font-face {
     font-family: "montserrat-black";
@@ -88,3 +101,5 @@
     font-style: normal;
     font-weight: normal;
 }
+
+/*# sourceMappingURL=fonts.css.map */
