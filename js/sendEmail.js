@@ -36,14 +36,12 @@ function restCall() {
         
         message()
     } else {
-        spinner.removeAttribute('hidden');
 
         fetch('https://0gqxxhb0wb.execute-api.us-east-1.amazonaws.com/Prod/send/', options)
             .then(function (response) {
                 /* $('#exampleModal').modal('show');*/
                 console.log(response.status)
                 message1()
-                spinner.setAttribute('hidden', '');
 
             })
     }
